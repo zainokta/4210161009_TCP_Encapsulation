@@ -15,3 +15,4 @@ type Hero struct {
 3. Kemudian Gob melakukan encode yang kemudian akan dikirim melalui socket tcp
 4. Server yang menerima paket dari client juga menggunakan library gob untuk decode paket yang dikirim tadi
 5. Hasil decode tersebut kemudian dimasukkan ke dalam struct yang ada pada server
+6. Setelah server menerima paket dari client, server meng- Encode paket tadi dan kemudian mengirimkan kembali ke client.
