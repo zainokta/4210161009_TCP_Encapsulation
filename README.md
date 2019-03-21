@@ -1,9 +1,11 @@
 # 4210161009_TCP_Encapsulation - DOTA 2
+```go
 type Hero struct {
 	ID     int // Hero ID
 	XCoord int // Hero Coordinate X
 	YCoord int // Hero Coordinate Y
 }
+```
 Seharusnya ada tambahan berupa hero HP, Mana, Status, Gold. Tetapi tadi tidak sempat.
 
 # Pengiriman memakai Struct
