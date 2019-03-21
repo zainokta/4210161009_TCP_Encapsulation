@@ -4,9 +4,10 @@ type Hero struct {
 	ID     int // Hero ID
 	XCoord int // Hero Coordinate X
 	YCoord int // Hero Coordinate Y
+	Mana   int // Hero Mana
+	Gold   int // Hero Gold
 }
 ```
-Seharusnya ada tambahan berupa hero HP, Mana, Status, Gold. Tetapi tadi tidak sempat.
 
 # Pengiriman memakai Struct
 1. Golang memiliki library bernama gob untuk encode/decode Struct
